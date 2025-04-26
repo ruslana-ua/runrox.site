@@ -4898,6 +4898,7 @@ section {
     border-radius: 19px
   }
   .structure__bg img {
+    width: 100%;
     height: 409px;
     border-radius: 12px
   }
