@@ -2002,9 +2002,17 @@ section {
 .indicator-settings__item {
   width: calc(50% - 27px)
 }
+.advanced-block .indicator-settings__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
 .indicator-settings__item:last-child {
   max-width: 485px;
   width: 100%
+}
+.advanced-block .indicator-settings__row {
+  flex: 0 1 auto
 }
 .indicator-settings__count {
   display: flex;
@@ -2387,6 +2395,9 @@ section {
   -webkit-column-gap: 32px;
   -moz-column-gap: 32px;
   column-gap: 32px
+}
+.advanced-block .advanced-block__bottom {
+  align-items: stretch
 }
 .advanced-block__bottom .indicator-settings__item {
   width: calc((100% - 96px)/ 4)
