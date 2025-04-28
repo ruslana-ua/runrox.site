@@ -2007,7 +2007,7 @@ section {
   width: 100%
 }
 .advanced-block .indicator-settings__row {
-  min-height: 178px
+  min-height: 184px
 }
 .indicator-settings__count {
   display: flex;
@@ -4896,6 +4896,10 @@ section {
   .structure__image {
     padding-bottom: 79%
   }
+  .structure__image img {
+    -o-object-fit: cover;
+    object-fit: cover
+  }
   .structure__wrapper {
     padding: 12px;
     border-radius: 19px
@@ -4946,6 +4950,7 @@ section {
     padding: 12px
   }
   .fv-gap__image--big img {
+    width: 100%;
     border-radius: 12px;
     height: 287px
   }
