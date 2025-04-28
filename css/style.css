@@ -2002,17 +2002,12 @@ section {
 .indicator-settings__item {
   width: calc(50% - 27px)
 }
-.advanced-block .indicator-settings__item {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between
-}
 .indicator-settings__item:last-child {
   max-width: 485px;
   width: 100%
 }
 .advanced-block .indicator-settings__row {
-  flex: 0 1 auto
+  min-height: 178px
 }
 .indicator-settings__count {
   display: flex;
@@ -2395,9 +2390,6 @@ section {
   -webkit-column-gap: 32px;
   -moz-column-gap: 32px;
   column-gap: 32px
-}
-.advanced-block .advanced-block__bottom {
-  align-items: stretch
 }
 .advanced-block__bottom .indicator-settings__item {
   width: calc((100% - 96px)/ 4)
@@ -4231,6 +4223,9 @@ section {
   .indicator-settings__content {
     width: 100%
   }
+  .advanced-block .indicator-settings__row {
+    min-height: auto
+  }
   .trends__item {
     padding: 32px 24px
   }
@@ -4325,9 +4320,6 @@ section {
     width: 100%;
     text-align: center;
     margin: 0 auto
-  }
-  .advanced-block__bottom .indicator-settings__title {
-    padding: 0
   }
   .advanced-block__bottom {
     flex-direction: column;
@@ -4969,6 +4961,9 @@ section {
     height: 28px;
     font-size: 20px;
     border-radius: 4px
+  }
+  .advanced-block__bottom .indicator-settings__title {
+    padding: 0
   }
   .function-block__top {
     padding-bottom: 24px!important
